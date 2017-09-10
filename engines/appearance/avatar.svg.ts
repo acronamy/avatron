@@ -1,7 +1,7 @@
-export function avatar(config){
+export function avatar(size){
     return `
     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="${config.size}" height="${config.size}" viewBox="0 0 199.999 200.001" enable-background="new 0 0 199.999 200.001"
+	 width="${size}px" height="${size}px" viewBox="0 0 199.999 200.001" enable-background="new 0 0 199.999 200.001"
 	 xml:space="preserve">
 
 <path id="face" d="M195.565,195.566c5.912,5.912-197.043,5.912-191.132,0c-5.911,5.912-5.911-197.044,0-191.133

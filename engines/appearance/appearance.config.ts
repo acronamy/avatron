@@ -1,4 +1,4 @@
-import {AppearanceConfig} from "../../interfaces/appearance.interface"
+import {AppearanceConfig} from "../../interfaces/appearance.interface";
 
 export const config:AppearanceConfig = {
     position:{
